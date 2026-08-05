@@ -3,10 +3,10 @@ import { render, screen } from '@testing-library/react'
 import App from './App.tsx'
 
 describe('App', () => {
-  it('renders the hello-world heading', () => {
+  it('renders the hero heading', () => {
     render(<App />)
     expect(
-      screen.getByRole('heading', { name: /hello, divine-counsel/i }),
+      screen.getByRole('heading', { name: /the divine council/i }),
     ).toBeInTheDocument()
   })
 })

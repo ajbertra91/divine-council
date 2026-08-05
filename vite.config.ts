@@ -3,7 +3,10 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
+const base = '/divine-counsel/'
+
 export default defineConfig({
+  base,
   plugins: [
     react(),
     tailwindcss(),
@@ -12,7 +15,8 @@ export default defineConfig({
       manifest: {
         name: 'divine-counsel',
         short_name: 'divine-counsel',
-        start_url: '/',
+        start_url: base,
+        scope: base,
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#111111',

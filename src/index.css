@@ -1,1 +1,51 @@
 @import "tailwindcss";
+
+@theme {
+  --font-display: "Cormorant Garamond", "Iowan Old Style", serif;
+  --font-hebrew: "Frank Ruhl Libre", serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --color-abyss: #020204;
+  --color-council: #6fb7ff;
+  --color-council-dim: #274866;
+  --color-ember: #c98a4b;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-abyss);
+  font-family: var(--font-body);
+}
+
+::selection {
+  background: var(--color-council-dim);
+  color: #eaf4ff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-abyss);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-council-dim);
+  border-radius: 999px;
+}
+
+.text-glow {
+  text-shadow:
+    0 0 24px rgba(111, 183, 255, 0.55),
+    0 0 60px rgba(111, 183, 255, 0.25);
+}
+
+.rim-light {
+  background: radial-gradient(
+    ellipse 60% 50% at 50% 0%,
+    rgba(111, 183, 255, 0.16),
+    transparent 70%
+  );
+}
