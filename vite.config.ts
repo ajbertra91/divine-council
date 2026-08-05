@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
-const base = '/divine-counsel/'
+const base = '/divine-council/'
 
 export default defineConfig({
   base,
@@ -13,8 +13,8 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'divine-counsel',
-        short_name: 'divine-counsel',
+        name: 'divine-council',
+        short_name: 'divine-council',
         start_url: base,
         scope: base,
         display: 'standalone',
