@@ -3,7 +3,13 @@ import { Reveal } from './Reveal'
 import { ManuscriptCompare } from './ManuscriptCompare'
 import { toRoman } from './roman'
 
+// These two source images are already dark/low-contrast. Standard banner
+// darkening (filter + vignette) crushes them to near-black. Lighter treatment
+// for these two only — keeps them legible without changing the other 6.
+const DARK_SOURCE_SECTIONS = new Set(['genesis-3', 'watchers'])
+
 export function SectionBlock({ section }: { section: Section }) {
+  const isDarkSource = DARK_SOURCE_SECTIONS.has(section.id)
   return (
     <section
       id={section.id}
@@ -14,6 +20,33 @@ export function SectionBlock({ section }: { section: Section }) {
         aria-hidden
         className="pointer-events-none absolute -top-10 left-1/2 -z-10 h-64 w-64 -translate-x-1/2 rounded-full bg-council/10 blur-3xl"
       />
+
+      {section.image && (
+        <Reveal className="relative left-1/2 -mb-8 h-[42vh] w-screen -translate-x-1/2 sm:h-[56vh]">
+          <img
+            src={`${import.meta.env.BASE_URL}${section.image.src.replace(/^\//, '')}`}
+            alt={section.image.alt}
+            className={
+              isDarkSource
+                ? 'h-full w-full object-cover [filter:grayscale(0.35)_brightness(0.95)_contrast(1.15)_saturate(0.75)]'
+                : 'h-full w-full object-cover [filter:grayscale(0.35)_brightness(0.55)_contrast(1.1)_saturate(0.75)]'
+            }
+          />
+          <div
+            aria-hidden
+            className="absolute inset-0 bg-gradient-to-b from-abyss via-transparent to-abyss"
+          />
+          <div
+            aria-hidden
+            className="absolute inset-0"
+            style={{
+              background: isDarkSource
+                ? 'radial-gradient(ellipse 70% 60% at 50% 50%, rgba(2,2,4,0) 0%, rgba(2,2,4,0.55) 100%)'
+                : 'radial-gradient(ellipse 70% 60% at 50% 50%, rgba(2,2,4,0) 0%, rgba(2,2,4,0.85) 100%)',
+            }}
+          />
+        </Reveal>
+      )}
 
       <Reveal>
         <p className="font-body text-xs tracking-[0.4em] text-council-dim uppercase">
