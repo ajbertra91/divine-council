@@ -15,6 +15,11 @@ export type ManuscriptWitness = {
   note: string
 }
 
+export type SectionImage = {
+  src: string
+  alt: string
+}
+
 export type Section = {
   id: string
   seat: number
@@ -24,6 +29,7 @@ export type Section = {
   quotes?: Quote[]
   list?: ListItem[]
   manuscripts?: ManuscriptWitness[]
+  image?: SectionImage
 }
 
 export const sections: Section[] = [
@@ -32,6 +38,10 @@ export const sections: Section[] = [
     seat: 1,
     kicker: 'Genesis 3:22',
     title: 'Like One of Us',
+    image: {
+      src: '/face-close-up.png',
+      alt: 'Close-up of a weathered divine face, half in shadow, echoing the plural voice of Genesis 3:22.',
+    },
     paragraphs: [
       'After the man and woman eat from the tree of knowledge, Yahweh speaks — and the verb takes a plural address, the same construction as "let us make man" in Genesis 1:26.',
       'Rashi already wrestled with the plural, reading it toward strict monotheism. Modern divine-council scholarship reads it as Yahweh addressing the members of his own court — the same class of beings named in Job 1:6 and Psalm 82.',
@@ -51,6 +61,10 @@ export const sections: Section[] = [
     seat: 2,
     kicker: 'Genesis 6:1–4',
     title: 'Sons of God, Daughters of Men',
+    image: {
+      src: '/genesis-6.png',
+      alt: 'Dark, ancient rendering of divine beings descending toward the daughters of men, evoking the bene ha’elohim of Genesis 6.',
+    },
     paragraphs: [
       'The flood narrative opens with four elliptical verses: divine beings — bene ha’elohim — take human wives. The offspring are the Nephilim, the gibborim, "men of renown."',
       'Bene ha’elohim is not loose poetry. It is the fixed term for members of the divine council elsewhere in the Hebrew Bible — Job 1:6, 2:1, 38:7; Psalm 29:1, 89:6-7 — and it mirrors Ugaritic bn ’il, "sons of El."',
@@ -76,6 +90,10 @@ export const sections: Section[] = [
     seat: 3,
     kicker: 'Deuteronomy 32:8–9',
     title: 'The Vanishing Verse',
+    image: {
+      src: '/divorcing-the-nations-babel.png',
+      alt: 'Somber depiction of the nations scattered from Babel, dividing the earth among the seventy sons of God named in Deuteronomy 32.',
+    },
     paragraphs: [
       'The Song of Moses describes Elyon, the Most High, dividing the nations of the earth. Among whom? Three witnesses give three different answers — and the difference is not a copying slip.',
       'The Masoretic Text reads "sons of Israel." But the Septuagint reads "sons of God," and the Dead Sea Scrolls fragment 4QDeut confirms it independently: בני אלוהים, bene elohim. Textual critics are near-unanimous that the Qumran reading is the older one.',
@@ -104,6 +122,10 @@ export const sections: Section[] = [
     seat: 4,
     kicker: 'Psalm 82',
     title: 'He Judges Among the Gods',
+    image: {
+      src: '/cast-out.png',
+      alt: 'A once-shining figure cast down out of the assembly, picturing the elohim of Psalm 82 stripped of rank and sentenced to die like mortals.',
+    },
     paragraphs: [
       'No text states the council more plainly. Elohim stands in the assembly of El; among the elohim, he pronounces judgment. Grammar alone forces the plural reading — you cannot be "in the midst of" one.',
       'The charge: the council has ruled the nations unjustly. The sentence: they will die like mortals, stripped of the immortality their rank once conferred — the same fall language used of the shining one cast down in Isaiah 14.',
@@ -135,6 +157,10 @@ export const sections: Section[] = [
     seat: 5,
     kicker: '1 Enoch 6–16 · Book of Watchers',
     title: 'The Oath on Hermon',
+    image: {
+      src: '/angel-close-up.png',
+      alt: 'Close, severe portrait of a Watcher’s face, bound by the oath sworn on Mount Hermon before the descent.',
+    },
     paragraphs: [
       'Two hundred Watchers descend to Mount Hermon. Their leader, Semjaza, fears carrying the guilt alone, so he binds the rest to him with an oath before they act.',
       'They take human wives and teach forbidden arts: sorcery, root-cutting, the omens of star and sun and moon. Azazel teaches metallurgy, weapons, and the ornaments of women. "All the earth was made desolate by the deeds of the teaching of Asael."',
@@ -164,6 +190,10 @@ export const sections: Section[] = [
     seat: 6,
     kicker: 'Book of Giants · Qumran',
     title: 'Gilgamesh Among the Nephilim',
+    image: {
+      src: '/gilgamesh-wall-carving.png',
+      alt: 'Weathered stone relief carving of Gilgamesh, the Mesopotamian hero recast in the Qumran Book of Giants as monstrous offspring of the Watchers.',
+    },
     paragraphs: [
       'A companion scroll to 1 Enoch, found among the Dead Sea fragments, tells the same catastrophe from inside the giants’ camp. Two of them dream of the coming ruin: a garden drowned and burned but for one surviving tree; a throne descending, ringed by a heavenly host.',
       'And two of the named giants are Gilgamesh and Humbaba — lifted whole out of the Mesopotamian epic and recast as monstrous offspring of the Watchers. Scholar John Reeves calls it "a bold polemical thrust against the revered traditions of a rival culture." A separate Ugaritic fragment even preserves Gilgamesh’s stature as literally gigantic — eleven cubits tall.',
@@ -174,6 +204,10 @@ export const sections: Section[] = [
     seat: 7,
     kicker: 'Enuma Elish · Atrahasis',
     title: 'The Assembly of the Gods',
+    image: {
+      src: '/celestial-council-in-ancient-hall.png',
+      alt: 'Dim, torch-lit hall where a convened assembly of gods deliberates, picturing the Babylonian puhru of the Enuma Elish and Atrahasis.',
+    },
     paragraphs: [
       'Long before Israel had a council, Babylon had a puhru — a convened assembly of gods that decided kingship, creation, and the fate of humanity by deliberation, not decree.',
       'In the Enuma Elish, Tiamat musters an army against the younger gods. Marduk will fight her only on one condition: the assembly must first grant him kingship outright. "Convene an assembly and proclaim for me an exalted destiny." They do, he wins, and they crown him with fifty names.',
@@ -197,6 +231,10 @@ export const sections: Section[] = [
     seat: 8,
     kicker: 'The Apkallu',
     title: 'Sages Before the Flood',
+    image: {
+      src: '/ugaritic-god-el.png',
+      alt: 'Ancient carved image of the god El, patriarch of the Ugaritic pantheon, standing behind the antediluvian sages who brought civilization from the sea.',
+    },
     paragraphs: [
       'Mesopotamia remembered seven antediluvian sages — apkallu — who brought the arts of civilization up from the sea. The first, Oannes, gave humanity letters, law, agriculture, "everything connected with the civilized life."',
       'Scholar Amar Annus argues the Watchers are this same figure, inverted. The apkallu are divine, and mate with humans, exactly as the Watchers do. Their taught arts — omen-reading, exorcism, the secret sciences "from the mouth of Ea" — are the same catalogue 1 Enoch lists, except that in Babylon the gift is civilization, and in Enoch it is catastrophe.',
