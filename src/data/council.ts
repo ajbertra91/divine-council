@@ -18,6 +18,7 @@ export type ManuscriptWitness = {
 export type SectionImage = {
   src: string
   alt: string
+  position?: string
 }
 
 export type Section = {
@@ -41,6 +42,7 @@ export const sections: Section[] = [
     image: {
       src: '/face-close-up.png',
       alt: 'Close-up of a weathered divine face, half in shadow, echoing the plural voice of Genesis 3:22.',
+      position: '50% 19%',
     },
     paragraphs: [
       'After the man and woman eat from the tree of knowledge, Yahweh speaks — and the verb takes a plural address, the same construction as "let us make man" in Genesis 1:26.',
@@ -59,11 +61,12 @@ export const sections: Section[] = [
   {
     id: 'genesis-6',
     seat: 2,
-    kicker: 'Genesis 6:1–4',
+    kicker: 'Genesis 6:1-4',
     title: 'Sons of God, Daughters of Men',
     image: {
       src: '/genesis-6.png',
       alt: 'Dark, ancient rendering of divine beings descending toward the daughters of men, evoking the bene ha’elohim of Genesis 6.',
+      position: '50% 20%',
     },
     paragraphs: [
       'The flood narrative opens with four elliptical verses: divine beings — bene ha’elohim — take human wives. The offspring are the Nephilim, the gibborim, "men of renown."',
@@ -88,11 +91,12 @@ export const sections: Section[] = [
   {
     id: 'deuteronomy-32',
     seat: 3,
-    kicker: 'Deuteronomy 32:8–9',
+    kicker: 'Deuteronomy 32:8-9',
     title: 'The Vanishing Verse',
     image: {
       src: '/divorcing-the-nations-babel.png',
       alt: 'Somber depiction of the nations scattered from Babel, dividing the earth among the seventy sons of God named in Deuteronomy 32.',
+      position: '50% 32%',
     },
     paragraphs: [
       'The Song of Moses describes Elyon, the Most High, dividing the nations of the earth. Among whom? Three witnesses give three different answers — and the difference is not a copying slip.',
@@ -125,6 +129,7 @@ export const sections: Section[] = [
     image: {
       src: '/cast-out.png',
       alt: 'A once-shining figure cast down out of the assembly, picturing the elohim of Psalm 82 stripped of rank and sentenced to die like mortals.',
+      position: '50% 5%',
     },
     paragraphs: [
       'No text states the council more plainly. Elohim stands in the assembly of El; among the elohim, he pronounces judgment. Grammar alone forces the plural reading — you cannot be "in the midst of" one.',
@@ -155,11 +160,12 @@ export const sections: Section[] = [
   {
     id: 'watchers',
     seat: 5,
-    kicker: '1 Enoch 6–16 · Book of Watchers',
+    kicker: '1 Enoch 6-16 · Book of Watchers',
     title: 'The Oath on Hermon',
     image: {
       src: '/angel-close-up.png',
       alt: 'Close, severe portrait of a Watcher’s face, bound by the oath sworn on Mount Hermon before the descent.',
+      position: '50% 37%',
     },
     paragraphs: [
       'Two hundred Watchers descend to Mount Hermon. Their leader, Semjaza, fears carrying the guilt alone, so he binds the rest to him with an oath before they act.',
@@ -175,7 +181,7 @@ export const sections: Section[] = [
       {
         translation:
           'The spirits that go forth from the bodies of their flesh are evil spirits, for from humans they came into being, and from the holy Watchers was the origin of their creation. Evil spirits they will be called.',
-        citation: '1 Enoch 15:8–9, Nickelsburg trans.',
+        citation: '1 Enoch 15:8-9, Nickelsburg trans.',
       },
     ],
     list: [
@@ -193,6 +199,7 @@ export const sections: Section[] = [
     image: {
       src: '/gilgamesh-wall-carving.png',
       alt: 'Weathered stone relief carving of Gilgamesh, the Mesopotamian hero recast in the Qumran Book of Giants as monstrous offspring of the Watchers.',
+      position: '50% 0%',
     },
     paragraphs: [
       'A companion scroll to 1 Enoch, found among the Dead Sea fragments, tells the same catastrophe from inside the giants’ camp. Two of them dream of the coming ruin: a garden drowned and burned but for one surviving tree; a throne descending, ringed by a heavenly host.',
@@ -207,6 +214,7 @@ export const sections: Section[] = [
     image: {
       src: '/celestial-council-in-ancient-hall.png',
       alt: 'Dim, torch-lit hall where a convened assembly of gods deliberates, picturing the Babylonian puhru of the Enuma Elish and Atrahasis.',
+      position: '50% 17%',
     },
     paragraphs: [
       'Long before Israel had a council, Babylon had a puhru — a convened assembly of gods that decided kingship, creation, and the fate of humanity by deliberation, not decree.',
@@ -234,6 +242,7 @@ export const sections: Section[] = [
     image: {
       src: '/ugaritic-god-el.png',
       alt: 'Ancient carved image of the god El, patriarch of the Ugaritic pantheon, standing behind the antediluvian sages who brought civilization from the sea.',
+      position: '50% 2%',
     },
     paragraphs: [
       'Mesopotamia remembered seven antediluvian sages — apkallu — who brought the arts of civilization up from the sea. The first, Oannes, gave humanity letters, law, agriculture, "everything connected with the civilized life."',
@@ -266,6 +275,6 @@ export const synthesis: ListItem[] = [
   },
   {
     label: 'A textual fossil record',
-    text: 'Deuteronomy 32:8–9 and Psalm 82 read, by much mainstream scholarship, as surviving evidence of an earlier stage in which Yahweh was one elohim among a populated council — a picture later scribal tradition worked to obscure, but never fully erased.',
+    text: 'Deuteronomy 32:8-9 and Psalm 82 read, by much mainstream scholarship, as surviving evidence of an earlier stage in which Yahweh was one elohim among a populated council — a picture later scribal tradition worked to obscure, but never fully erased.',
   },
 ]
