@@ -82,6 +82,15 @@ export function SectionBlock({ section }: { section: Section }) {
                     {quote.hebrew}
                   </p>
                 )}
+                {quote.greek && (
+                  <p
+                    dir="ltr"
+                    lang="grc"
+                    className="mb-3 font-display text-xl leading-loose text-council sm:text-2xl"
+                  >
+                    {quote.greek}
+                  </p>
+                )}
                 <p className="font-display text-lg italic leading-relaxed text-neutral-200 sm:text-xl">
                   "{quote.translation}"
                 </p>

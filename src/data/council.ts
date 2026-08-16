@@ -1,5 +1,6 @@
 export type Quote = {
   hebrew?: string
+  greek?: string
   translation: string
   citation: string
 }
@@ -250,6 +251,209 @@ export const sections: Section[] = [
       'Even the sages’ fall is already present in the source tradition: the anti-witchcraft series Maqlu calls them "the Sages of the Apsu," warlocks; the Erra Epic has them banished beneath the sea at the time of the flood. The Jewish scribes did not invent the demonization — they radicalized it.',
     ],
   },
+  // TODO image: Daniel's night vision — a row of empty thrones catching firelight before the Ancient of Days, with a cloud-borne figure approaching from a distance.
+  {
+    id: 'daniel-7',
+    seat: 9,
+    kicker: 'Daniel 7:9-14',
+    title: 'Thrones Were Set',
+    paragraphs: [
+      'Daniel watches the court convene. Not one throne but many — "thrones were set in place" — and the Ancient of Days takes his seat among them, garment white as snow, a throne of flame on wheels of fire. The council of the earlier texts is still sitting.',
+      'Then a second figure arrives, borne on the clouds of heaven, and is presented before the Ancient of Days to receive an everlasting dominion. "Rider of the clouds" is elsewhere in the Hebrew Bible a title for Yahweh alone. Daniel gives it to someone else, standing beside him. The text also takes care to distinguish this figure from Michael, named a few chapters later as merely "one of the chief princes" — a member of the council, not its co-ruler.',
+      'Centuries later, before Caiaphas, Jesus quotes this vision of himself. He does not claim a seat among the thrones. He claims to be the one who comes to them.',
+    ],
+    quotes: [
+      {
+        hebrew: 'חָזֵ֣ה הֲוֵ֗ית עַ֣ד דִּ֤י כׇרְסָוָן֙ רְמִ֔יו וְעַתִּ֥יק יוֹמִ֖ין יְתִ֑ב',
+        translation:
+          'I looked on, as thrones were set in place and the Ancient of Days took his seat. His garment was like white snow, and the hair of his head was like lamb\'s wool. His throne was tongues of flame; its wheels were blazing fire.',
+        citation: 'Daniel 7:9',
+      },
+      {
+        hebrew:
+          'חָזֵ֤ה הֲוֵית֙ בְּחֶזְוֵ֣י לֵֽילְיָ֔א וַאֲרוּ֙ עִם־עֲנָנֵ֣י שְׁמַיָּ֔א כְּבַ֥ר אֱנָ֖שׁ אָתֵ֣ה הֲוָ֑א וְעַד־עַתִּ֤יק יֽוֹמַיָּא֙ מְטָ֔ה',
+        translation:
+          'I looked on, in the night vision, and behold, with the clouds of heaven one like a son of man came, and he reached the Ancient of Days and was presented before him.',
+        citation: 'Daniel 7:13',
+      },
+    ],
+  },
+  // TODO image: A lone traveling angel on a wilderness road, radiant and severe, marked as though the divine Name itself were burning inside him.
+  {
+    id: 'angel-of-yhwh',
+    seat: 10,
+    kicker: 'Exodus 23:20-23',
+    title: 'My Name Is in Him',
+    paragraphs: [
+      'Yahweh sends an angel ahead of Israel on the road out of Egypt, with a warning attached to no other messenger in the Hebrew Bible: obey him, do not defy him, for "my name is in him." A being who carries the Name is owed the obedience owed to the Name\'s owner — and is credited, strangely, with the power to withhold pardon, which is another way of saying the power to grant it.',
+      'The rabbis remembered how dangerous that verse was. The Babylonian Talmud preserves a debate in which a heretic reads Exodus 23:21 together with the divine name-bearing angel Metatron and concludes a second power stands in heaven alongside God. The sages answer by pointing back to the same verse — "be not rebellious against him" — but the argument itself survived long enough to need answering.',
+      'Alan Segal traces this same reading straight into first-century Christian exegesis: Exodus 23:20 applied to the messenger who prepares the way, and the specific charge brought against Jesus — that he presumed to forgive sins — read as exactly the presumption this angel was already rumored to hold.',
+    ],
+    quotes: [
+      {
+        hebrew:
+          'הִשָּׁ֧מֶר מִפָּנָ֛יו וּשְׁמַ֥ע בְּקֹל֖וֹ אַל־תַּמֵּ֣ר בּ֑וֹ כִּ֣י לֹ֤א יִשָּׂא֙ לְפִשְׁעֲכֶ֔ם כִּ֥י שְׁמִ֖י בְּקִרְבּֽוֹ',
+        translation:
+          'Pay heed to him and obey him. Do not defy him, for he will not pardon your offenses, since my name is in him.',
+        citation: 'Exodus 23:21',
+      },
+      {
+        translation:
+          'It was Metatron, whose name is similar to that of his Master, for it is written, "My name is in him." "But if so, we should worship him!" "The same passage," replied R. Idi, "says: be not rebellious against him."',
+        citation: 'b. Sanhedrin 38b',
+      },
+    ],
+  },
+  // TODO image: Jesus standing among temple colonnades, surrounded by a hostile crowd with stones half-raised, mid-argument.
+  {
+    id: 'john-10',
+    seat: 11,
+    kicker: 'John 10:34-36',
+    title: 'I Said, You Are Gods',
+    paragraphs: [
+      'Charged with blasphemy at the temple, Jesus answers by quoting the council text itself: "I said, you are gods." He is citing Psalm 82:6, the verse that names the elohim later judged for their corrupt rule of the nations.',
+      'Two readings divide the commentators. The mainstream reading treats Psalm 82\'s "gods" as human judges, and hears Jesus arguing from the lesser case to the greater: if mere officeholders could bear that title on God\'s own authority, how much more the one the Father himself consecrated and sent. Heiser reads the same council behind Psalm 82 he reads everywhere else — no text anywhere else seats human judges "in the clouds" — and hears Jesus claiming not comparison but membership, and open superiority, over the very beings that psalm puts on trial.',
+      'Either way, the point of the citation is the same. Jesus is not lowering his claim to fit a psalm about ordinary men. He is raising it, on the psalm\'s own terms.',
+    ],
+    quotes: [
+      {
+        greek: 'Οὐκ ἔστιν γεγραμμένον ἐν τῷ νόμῳ ὑμῶν ὅτι Ἐγὼ εἶπα Θεοί ἐστε;',
+        translation: 'Is it not written in your Law, "I said, you are gods"?',
+        citation: 'John 10:34',
+      },
+      {
+        greek:
+          'ὃν ὁ Πατὴρ ἡγίασεν καὶ ἀπέστειλεν εἰς τὸν κόσμον ὑμεῖς λέγετε ὅτι Βλασφημεῖς, ὅτι εἶπον Υἱὸς τοῦ Θεοῦ εἰμι;',
+        translation:
+          'Do you say of him whom the Father consecrated and sent into the world, "You are blaspheming," because I said, "I am the Son of God"?',
+        citation: 'John 10:36',
+      },
+    ],
+  },
+  // TODO image: A vast hierarchical ladder of thrones and dominions receding into light, all converging toward a single figure at their source.
+  {
+    id: 'colossians',
+    seat: 12,
+    kicker: 'Colossians 1:15-20 · 2:15',
+    title: 'Every Throne Made by Him',
+    paragraphs: [
+      'Paul names the council\'s own ranks — thrones, dominions, rulers, powers — the same bureaucratic vocabulary Daniel and Deuteronomy use for the bene elohim, and states plainly that Christ made every one of them. Nothing in the hierarchy predates him. Nothing in it stands outside his authority.',
+      'Then Paul narrates their fall. The rulers and authorities are stripped, put on public display, led in a triumph — Rome\'s own image of a defeated army marched through the streets, applied to the council\'s corrupt tier. This is Psalm 82\'s sentence carried out: the elohim judged for misruling the nations are now openly humiliated by the one who made them.',
+      'Creation and defeat sit in the same two chapters because they are the same claim. The powers were never a rival order. They were always subordinate — and now, unmistakably, disarmed.',
+    ],
+    quotes: [
+      {
+        greek:
+          'ὅτι ἐν αὐτῷ ἐκτίσθη τὰ πάντα ἐν τοῖς οὐρανοῖς καὶ ἐπὶ τῆς γῆς, τὰ ὁρατὰ καὶ τὰ ἀόρατα, εἴτε θρόνοι εἴτε κυριότητες εἴτε ἀρχαὶ εἴτε ἐξουσίαι· τὰ πάντα δι\' αὐτοῦ καὶ εἰς αὐτὸν ἔκτισται',
+        translation:
+          'For by him all things were created, in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or powers — all things were created through him and for him.',
+        citation: 'Colossians 1:16',
+      },
+      {
+        greek: 'ἀπεκδυσάμενος τὰς ἀρχὰς καὶ τὰς ἐξουσίας ἐδειγμάτισεν ἐν παρρησίᾳ, θριαμβεύσας αὐτοὺς ἐν αὐτῷ',
+        translation:
+          'He disarmed the rulers and authorities and put them to open shame, triumphing over them.',
+        citation: 'Colossians 2:15',
+      },
+    ],
+  },
+  // TODO image: A figure descending into a dark, rock-sealed desert cavern to address bound, half-seen forms chained in the shadows.
+  {
+    id: 'spirits-in-prison',
+    seat: 13,
+    kicker: '1 Peter 3:18-20',
+    title: 'Proclamation to the Prison',
+    paragraphs: [
+      'Peter says the risen Christ, "made alive in the spirit," went and made proclamation to "spirits in prison" — not souls, the word used elsewhere for the human dead, but spirits, and specifically spirits who "did not obey" in the days before the flood.',
+      'That is a precise description of one place. Four seats ago, this same story named it: Michael binding Semjaza and his company, Raphael binding Azazel under rocks in the desert of Dudael, both sentences reading "until the day of great judgment." Peter is not inventing new prisoners. He is telling us the risen Christ went down and stood in front of the ones already there.',
+      'The proclamation is not an offer. It is a verdict delivered in person, to beings who have been waiting under those rocks since Genesis 6 for someone with the authority to reopen the case.',
+    ],
+    quotes: [
+      {
+        greek: 'ἐν ᾧ καὶ τοῖς ἐν φυλακῇ πνεύμασιν πορευθεὶς ἐκήρυξεν',
+        translation: 'In which he went and proclaimed to the spirits in prison.',
+        citation: '1 Peter 3:19',
+      },
+    ],
+  },
+  // TODO image: Tongues of fire descending over a diverse crowd in a city square, echoing and inverting the scattering of Babel.
+  {
+    id: 'pentecost',
+    seat: 14,
+    kicker: 'Acts 2',
+    title: 'The Reversal of Babel',
+    paragraphs: [
+      'Three seats back, this story turned on a single restored word: Elyon divided the nations of the earth among the sons of God, and kept Jacob as his own portion. Everyone outside Israel answered, from then on, to an elohim other than Yahweh. That division is what Pentecost undoes.',
+      'The list of nations gathered in Jerusalem echoes the Table of Nations from Genesis 10 — the same nations Babel scattered. At Babel, God descended and divided their language to break their unity. At Pentecost, the Spirit descends and divides tongues to build it: every nation hears its own language and understands. Gregory of Nazianzus put the inversion plainly, four centuries later: what was once scattered into confusion now "flows from one spirit, is poured out to many, and unites us together once more."',
+      'No angel stands between the nations and Yahweh anymore. The Spirit speaks to them directly, in their own tongues, on the same ground where they were once divided and handed away.',
+    ],
+    quotes: [
+      {
+        translation:
+          'Babel\'s disinheritance was going to be rectified by the message of Jesus and his Spirit.',
+        citation: 'Michael Heiser, The Unseen Realm, p. 299',
+      },
+      {
+        translation:
+          'God, having ruined their shared knowledge by dividing their language, thus foiled their attempt; but the present miracle flows from one spirit, is poured out to many, and unites us together once more.',
+        citation: 'Gregory of Nazianzus, Oration 41.16, "On Pentecost"',
+      },
+    ],
+  },
+  // TODO image: Wind moving visibly over dark primordial water, rendered as a single luminous presence rather than a figure.
+  {
+    id: 'spirit-and-trinity',
+    seat: 15,
+    kicker: 'Genesis 1:2 · Nicaea 325 · Constantinople 381',
+    title: 'The Spirit Who Spoke Through the Prophets',
+    paragraphs: [
+      'The ruach elohim is present from the second verse of the whole story, hovering over the water before anything else exists. It is not a background detail. This same spirit grieves at Israel\'s rebellion in Isaiah, and it is the one power that can put breath back into dry bones in Ezekiel\'s valley — an agent, not a weather pattern.',
+      'The Gospels give the same spirit a hand in Christ\'s own conception and ministry, and Acts gives it the Pentecost ingathering just told. But its own status inside the divine identity took the church three and a half centuries to settle. Nicaea, in 325, spoke of the Father and the Son at length and gave the Spirit one clause: "and in the Holy Spirit." Nothing more.',
+      'Constantinople, in 381, finished the sentence. The Spirit is named Lord, giver of life, worshipped and glorified together with the Father and the Son, the one who spoke through the prophets. What Genesis 1:2 introduced without explanation, the creed finally named: not an instrument of God, but God.',
+    ],
+    quotes: [
+      {
+        hebrew: 'וְהָאָ֗רֶץ הָיְתָ֥ה תֹ֙הוּ֙ וָבֹ֔הוּ וְחֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַמָּֽיִם',
+        translation:
+          'The earth being unformed and void, with darkness over the surface of the deep, and the spirit of God hovering over the water.',
+        citation: 'Genesis 1:2',
+      },
+      {
+        greek:
+          'Καὶ εἰς τὸ Πνεῦμα τὸ Ἅγιον, τὸ κύριον, τὸ ζωοποιόν, τὸ ἐκ τοῦ Πατρὸς ἐκπορευόμενον, τὸ σὺν Πατρὶ καὶ Υἱῷ συμπροσκυνούμενον καὶ συνδοξαζόμενον, τὸ λαλῆσαν διὰ τῶν προφητῶν',
+        translation:
+          'And in the Holy Spirit, the Lord, the giver of life, who proceeds from the Father, who with the Father and the Son together is worshipped and glorified, who spoke through the prophets.',
+        citation: 'Niceno-Constantinopolitan Creed, 381',
+      },
+    ],
+  },
+  // TODO image: A cosmic triptych in one frame — a bowed heavenly host above, a bowed crowd of people at ground level, and bowed chained shapes in darkness beneath the earth.
+  {
+    id: 'philippians-2',
+    seat: 16,
+    kicker: 'Philippians 2:6-11',
+    title: 'Every Knee, Every Realm',
+    paragraphs: [
+      'The oldest hymn folded into the New Testament tells the story backward from where it started. Existing in the form of God, he did not treat equality with God as something to seize. He emptied himself, took the form of a servant, was born in human likeness, and carried that humility all the way to death on a cross.',
+      'Then the hymn turns, and the whole architecture of this story turns with it. God exalts him, and gives him the name above every name, so that every knee bends — of those in heaven, and on earth, and under the earth. Three tiers, one bow. Not a figure of speech: the majority of scholars reading this text for a century have taken it as the same stacked cosmology traced through every seat before this one — a heavenly tier of loyal and rebellious elohim, an earthly tier of the nations, a subterranean tier of the bound and the judged.',
+      'Every tier this story has visited answers here. The council enthroned around Daniel\'s Ancient of Days, the angel who once carried the Name, the elohim judged in the assembly and disarmed in Colossae, the Watchers still sealed under their rocks, the nations regathered at Pentecost — heaven, earth, and the ground beneath it, bowing in one gesture to the name that was, from the first council in Eden, always the one this story was circling toward.',
+    ],
+    quotes: [
+      {
+        greek: 'ὃς ἐν μορφῇ Θεοῦ ὑπάρχων οὐχ ἁρπαγμὸν ἡγήσατο τὸ εἶναι ἴσα Θεῷ, ἀλλὰ ἑαυτὸν ἐκένωσεν μορφὴν δούλου λαβών',
+        translation:
+          'Who, though he was in the form of God, did not regard equality with God as something to be grasped, but emptied himself, taking the form of a servant.',
+        citation: 'Philippians 2:6-7',
+      },
+      {
+        greek:
+          'ἵνα ἐν τῷ ὀνόματι Ἰησοῦ πᾶν γόνυ κάμψῃ ἐπουρανίων καὶ ἐπιγείων καὶ καταχθονίων',
+        translation:
+          'So that at the name of Jesus every knee should bow, of those in heaven and on earth and under the earth.',
+        citation: 'Philippians 2:10',
+      },
+    ],
+  },
 ]
 
 export const synthesis: ListItem[] = [
@@ -276,5 +480,21 @@ export const synthesis: ListItem[] = [
   {
     label: 'A textual fossil record',
     text: 'Deuteronomy 32:8-9 and Psalm 82 read, by much mainstream scholarship, as surviving evidence of an earlier stage in which Yahweh was one elohim among a populated council — a picture later scribal tradition worked to obscure, but never fully erased.',
+  },
+  {
+    label: 'Enthroned above the council',
+    text: 'The "one like a son of man" received before Daniel\'s plural thrones is claimed by Jesus himself before Caiaphas — not a seat added to the council, but the one through whom every throne, dominion, ruler, and power in it was made.',
+  },
+  {
+    label: 'The powers disarmed',
+    text: 'The corrupt elohim of Psalm 82 reappear in Colossians as the rulers and authorities Christ strips and puts to open shame, and in 1 Peter as the very Watchers Michael and Raphael once bound — now confronted directly in their prison.',
+  },
+  {
+    label: 'The nations regathered',
+    text: 'The nations Deuteronomy 32 divided among the sons of God at Babel are addressed again at Pentecost, this time by Yahweh\'s own Spirit, in their own tongues, without the mediating elohim to whom they were once allotted.',
+  },
+  {
+    label: 'Plural resolved, not erased',
+    text: 'The "let us" and "one of us" of the earliest council texts find their answer not in a return to a populated pantheon but in the Nicene and Constantinopolitan confession of one uncreated God in three persons — Father, Son, and Spirit — distinct in kind from every created elohim of the court.',
   },
 ]
