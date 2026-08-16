@@ -40,9 +40,9 @@ export const sections: Section[] = [
     kicker: 'Genesis 3:22',
     title: 'Like One of Us',
     image: {
-      src: '/face-close-up.png',
+      src: '/angel-close-up.png',
       alt: 'Close-up of a weathered divine face, half in shadow, echoing the plural voice of Genesis 3:22.',
-      position: '50% 19%',
+      position: '50% 25%',
     },
     paragraphs: [
       'After the man and woman eat from the tree of knowledge, Yahweh speaks — and the verb takes a plural address, the same construction as "let us make man" in Genesis 1:26.',
@@ -96,12 +96,12 @@ export const sections: Section[] = [
     image: {
       src: '/divorcing-the-nations-babel.png',
       alt: 'Somber depiction of the nations scattered from Babel, dividing the earth among the seventy sons of God named in Deuteronomy 32.',
-      position: '50% 32%',
+      position: '50% 42%',
     },
     paragraphs: [
       'The Song of Moses describes Elyon, the Most High, dividing the nations of the earth. Among whom? Three witnesses give three different answers — and the difference is not a copying slip.',
       'The Masoretic Text reads "sons of Israel." But the Septuagint reads "sons of God," and the Dead Sea Scrolls fragment 4QDeut confirms it independently: בני אלוהים, bene elohim. Textual critics are near-unanimous that the Qumran reading is the older one.',
-      'Restored, the verse describes Elyon apportioning the seventy nations among seventy sons of God — matching the seventy sons Ugaritic myth gives to El, and the seventy nations of the Table of Nations in Genesis 10. Yahweh’s own portion, singled out in verse 9, is Jacob alone. Someone, later, found that picture uncomfortable enough to overwrite it.',
+      'Restored, the verse describes Elyon apportioning the seventy nations among seventy sons of God — matching the seventy sons the Ugaritic myth gives to El, and the seventy nations of the Table of Nations in Genesis 10. Yahweh’s own portion, singled out in verse 9, is Jacob alone. Someone, later, found that picture uncomfortable enough to overwrite it.',
     ],
     manuscripts: [
       {
@@ -127,8 +127,8 @@ export const sections: Section[] = [
     kicker: 'Psalm 82',
     title: 'He Judges Among the Gods',
     image: {
-      src: '/cast-out.png',
-      alt: 'A once-shining figure cast down out of the assembly, picturing the elohim of Psalm 82 stripped of rank and sentenced to die like mortals.',
+      src: '/judgement-of-council.png',
+      alt: 'God sitting in judgment among the divine council, echoing the language of Psalm 82.',
       position: '50% 5%',
     },
     paragraphs: [
@@ -163,7 +163,7 @@ export const sections: Section[] = [
     kicker: '1 Enoch 6-16 · Book of Watchers',
     title: 'The Oath on Hermon',
     image: {
-      src: '/angel-close-up.png',
+      src: '/descending-on-mount-hermon.png',
       alt: 'Close, severe portrait of a Watcher’s face, bound by the oath sworn on Mount Hermon before the descent.',
       position: '50% 37%',
     },
@@ -212,8 +212,8 @@ export const sections: Section[] = [
     kicker: 'Enuma Elish · Atrahasis',
     title: 'The Assembly of the Gods',
     image: {
-      src: '/celestial-council-in-ancient-hall.png',
-      alt: 'Dim, torch-lit hall where a convened assembly of gods deliberates, picturing the Babylonian puhru of the Enuma Elish and Atrahasis.',
+      src: '/marduk-asks-to-be-king.png',
+      alt: 'image of Marduk, the Babylonian storm god, asking the assembly of gods to grant him kingship before he fights Tiamat.',
       position: '50% 17%',
     },
     paragraphs: [
