@@ -27,7 +27,7 @@ export function CouncilRail({ sections, activeId }: CouncilRailProps) {
                   : 'text-neutral-600 opacity-0 group-hover:opacity-100'
               }`}
             >
-              {section.kicker.split(' ')[0]}
+              {section.kicker}
             </span>
             <span
               className={`h-2 w-2 rounded-full border transition-all duration-500 ${
