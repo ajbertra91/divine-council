@@ -26,6 +26,7 @@ export function SectionBlock({ section }: { section: Section }) {
           <img
             src={`${import.meta.env.BASE_URL}${section.image.src.replace(/^\//, '')}`}
             alt={section.image.alt}
+            style={{ objectPosition: section.image.position ?? '50% 50%' }}
             className={
               isDarkSource
                 ? 'h-full w-full object-cover [filter:grayscale(0.35)_brightness(0.95)_contrast(1.15)_saturate(0.75)]'
