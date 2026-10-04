@@ -29,8 +29,8 @@ export function SectionBlock({ section }: { section: Section }) {
             style={{ objectPosition: section.image.position ?? '50% 50%' }}
             className={
               isDarkSource
-                ? 'h-full w-full object-cover [filter:grayscale(0.35)_brightness(0.95)_contrast(1.15)_saturate(0.75)]'
-                : 'h-full w-full object-cover [filter:grayscale(0.35)_brightness(0.55)_contrast(1.1)_saturate(0.75)]'
+                ? 'h-full w-full object-cover'
+                : 'h-full w-full object-cover'
             }
           />
           <div
