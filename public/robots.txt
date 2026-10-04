@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ajbertra91.github.io/divine-council/sitemap.xml
