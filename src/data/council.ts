@@ -251,12 +251,15 @@ export const sections: Section[] = [
       'Even the sages’ fall is already present in the source tradition: the anti-witchcraft series Maqlu calls them "the Sages of the Apsu," warlocks; the Erra Epic has them banished beneath the sea at the time of the flood. The Jewish scribes did not invent the demonization — they radicalized it.',
     ],
   },
-  // TODO image: Daniel's night vision — a row of empty thrones catching firelight before the Ancient of Days, with a cloud-borne figure approaching from a distance.
   {
     id: 'daniel-7',
     seat: 9,
     kicker: 'Daniel 7:9-14',
     title: 'Thrones Were Set',
+    image: {
+      src: '/heavenly-throne-room-vision.png',
+      alt: "Daniel’s night vision: a row of thrones set in a heavenly hall before the Ancient of Days, with a cloud-borne figure approaching.",
+    },
     paragraphs: [
       'Daniel watches the court convene. Not one throne but many — "thrones were set in place" — and the Ancient of Days takes his seat among them, garment white as snow, a throne of flame on wheels of fire. The council of the earlier texts is still sitting.',
       'Then a second figure arrives, borne on the clouds of heaven, and is presented before the Ancient of Days to receive an everlasting dominion. "Rider of the clouds" is elsewhere in the Hebrew Bible a title for Yahweh alone. Daniel gives it to someone else, standing beside him. The text also takes care to distinguish this figure from Michael, named a few chapters later as merely "one of the chief princes" — a member of the council, not its co-ruler.',
@@ -278,12 +281,15 @@ export const sections: Section[] = [
       },
     ],
   },
-  // TODO image: A lone traveling angel on a wilderness road, radiant and severe, marked as though the divine Name itself were burning inside him.
   {
     id: 'angel-of-yhwh',
     seat: 10,
     kicker: 'Exodus 23:20-23',
     title: 'My Name Is in Him',
+    image: {
+      src: '/guided-through-the-desert-canyon.png',
+      alt: "A radiant angel guiding a traveler through a desert canyon, the divine Name burning within him.",
+    },
     paragraphs: [
       'Yahweh sends an angel ahead of Israel on the road out of Egypt, with a warning attached to no other messenger in the Hebrew Bible: obey him, do not defy him, for "my name is in him." A being who carries the Name is owed the obedience owed to the Name\'s owner — and is credited, strangely, with the power to withhold pardon, which is another way of saying the power to grant it.',
       'The rabbis remembered how dangerous that verse was. The Babylonian Talmud preserves a debate in which a heretic reads Exodus 23:21 together with the divine name-bearing angel Metatron and concludes a second power stands in heaven alongside God. The sages answer by pointing back to the same verse — "be not rebellious against him" — but the argument itself survived long enough to need answering.',
@@ -304,12 +310,15 @@ export const sections: Section[] = [
       },
     ],
   },
-  // TODO image: Jesus standing among temple colonnades, surrounded by a hostile crowd with stones half-raised, mid-argument.
   {
     id: 'john-10',
     seat: 11,
     kicker: 'John 10:34-36',
     title: 'I Said, You Are Gods',
+    image: {
+      src: '/temple-confrontation-the-teacher-and-elders.png',
+      alt: "Jesus teaching in the temple, confronted by elders in a hostile argument over the words \"I said, you are gods.\"",
+    },
     paragraphs: [
       'Charged with blasphemy at the temple, Jesus answers by quoting the council text itself: "I said, you are gods." He is citing Psalm 82:6, the verse that names the elohim later judged for their corrupt rule of the nations.',
       'Two readings divide the commentators. The mainstream reading treats Psalm 82\'s "gods" as human judges, and hears Jesus arguing from the lesser case to the greater: if mere officeholders could bear that title on God\'s own authority, how much more the one the Father himself consecrated and sent. Heiser reads the same council behind Psalm 82 he reads everywhere else — no text anywhere else seats human judges "in the clouds" — and hears Jesus claiming not comparison but membership, and open superiority, over the very beings that psalm puts on trial.',
@@ -330,12 +339,15 @@ export const sections: Section[] = [
       },
     ],
   },
-  // TODO image: A vast hierarchical ladder of thrones and dominions receding into light, all converging toward a single figure at their source.
   {
     id: 'colossians',
     seat: 12,
     kicker: 'Colossians 1:15-20 · 2:15',
     title: 'Every Throne Made by Him',
+    image: {
+      src: '/triumph-in-the-celestial-throne-hall.png',
+      alt: "A triumph in the celestial throne hall: thrones and dominions converging on the one who made them and disarmed the rulers.",
+    },
     paragraphs: [
       'Paul names the council\'s own ranks — thrones, dominions, rulers, powers — the same bureaucratic vocabulary Daniel and Deuteronomy use for the bene elohim, and states plainly that Christ made every one of them. Nothing in the hierarchy predates him. Nothing in it stands outside his authority.',
       'Then Paul narrates their fall. The rulers and authorities are stripped, put on public display, led in a triumph — Rome\'s own image of a defeated army marched through the streets, applied to the council\'s corrupt tier. This is Psalm 82\'s sentence carried out: the elohim judged for misruling the nations are now openly humiliated by the one who made them.',
@@ -357,12 +369,15 @@ export const sections: Section[] = [
       },
     ],
   },
-  // TODO image: A figure descending into a dark, rock-sealed desert cavern to address bound, half-seen forms chained in the shadows.
   {
     id: 'spirits-in-prison',
     seat: 13,
     kicker: '1 Peter 3:18-20',
     title: 'Proclamation to the Prison',
+    image: {
+      src: '/radiant-figure-in-the-chained-abyss.png',
+      alt: "A radiant figure descending into the abyss to proclaim victory to chained spirits in the dark.",
+    },
     paragraphs: [
       'Peter says the risen Christ, "made alive in the spirit," went and made proclamation to "spirits in prison" — not souls, the word used elsewhere for the human dead, but spirits, and specifically spirits who "did not obey" in the days before the flood.',
       'That is a precise description of one place. Four seats ago, this same story named it: Michael binding Semjaza and his company, Raphael binding Azazel under rocks in the desert of Dudael, both sentences reading "until the day of great judgment." Peter is not inventing new prisoners. He is telling us the risen Christ went down and stood in front of the ones already there.',
@@ -376,12 +391,15 @@ export const sections: Section[] = [
       },
     ],
   },
-  // TODO image: Tongues of fire descending over a diverse crowd in a city square, echoing and inverting the scattering of Babel.
   {
     id: 'pentecost',
     seat: 14,
     kicker: 'Acts 2',
     title: 'The Reversal of Babel',
+    image: {
+      src: '/pentecost-in-the-ancient-temple.png',
+      alt: "Tongues of fire falling on a diverse crowd in an ancient temple at Pentecost, reversing the scattering of Babel.",
+    },
     paragraphs: [
       'Three seats back, this story turned on a single restored word: Elyon divided the nations of the earth among the sons of God, and kept Jacob as his own portion. Everyone outside Israel answered, from then on, to an elohim other than Yahweh. That division is what Pentecost undoes.',
       'The list of nations gathered in Jerusalem echoes the Table of Nations from Genesis 10 — the same nations Babel scattered. At Babel, God descended and divided their language to break their unity. At Pentecost, the Spirit descends and divides tongues to build it: every nation hears its own language and understands. Gregory of Nazianzus put the inversion plainly, four centuries later: what was once scattered into confusion now "flows from one spirit, is poured out to many, and unites us together once more."',
@@ -400,12 +418,15 @@ export const sections: Section[] = [
       },
     ],
   },
-  // TODO image: Wind moving visibly over dark primordial water, rendered as a single luminous presence rather than a figure.
   {
     id: 'spirit-and-trinity',
     seat: 15,
     kicker: 'Genesis 1:2 · Nicaea 325 · Constantinople 381',
     title: 'The Spirit Who Spoke Through the Prophets',
+    image: {
+      src: '/the-holy-spirit-through-scripture.png',
+      alt: "The Holy Spirit moving as a luminous presence through Scripture and the prophets.",
+    },
     paragraphs: [
       'The ruach elohim is present from the second verse of the whole story, hovering over the water before anything else exists. It is not a background detail. This same spirit grieves at Israel\'s rebellion in Isaiah, and it is the one power that can put breath back into dry bones in Ezekiel\'s valley — an agent, not a weather pattern.',
       'The Gospels give the same spirit a hand in Christ\'s own conception and ministry, and Acts gives it the Pentecost ingathering just told. But its own status inside the divine identity took the church three and a half centuries to settle. Nicaea, in 325, spoke of the Father and the Son at length and gave the Spirit one clause: "and in the Holy Spirit." Nothing more.',
@@ -427,12 +448,15 @@ export const sections: Section[] = [
       },
     ],
   },
-  // TODO image: A cosmic triptych in one frame — a bowed heavenly host above, a bowed crowd of people at ground level, and bowed chained shapes in darkness beneath the earth.
   {
     id: 'philippians-2',
     seat: 16,
     kicker: 'Philippians 2:6-11',
     title: 'Every Knee, Every Realm',
+    image: {
+      src: '/throne-above-heaven-and-earth.png',
+      alt: "A throne above heaven and earth, with the heavenly host, humankind, and the chained powers below all bowing.",
+    },
     paragraphs: [
       'The oldest hymn folded into the New Testament tells the story backward from where it started. Existing in the form of God, he did not treat equality with God as something to seize. He emptied himself, took the form of a servant, was born in human likeness, and carried that humility all the way to death on a cross.',
       'Then the hymn turns, and the whole architecture of this story turns with it. God exalts him, and gives him the name above every name, so that every knee bends — of those in heaven, and on earth, and under the earth. Three tiers, one bow. Not a figure of speech: the majority of scholars reading this text for a century have taken it as the same stacked cosmology traced through every seat before this one — a heavenly tier of loyal and rebellious elohim, an earthly tier of the nations, a subterranean tier of the bound and the judged.',
